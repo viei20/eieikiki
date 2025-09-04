@@ -12,7 +12,7 @@ for char in text:
         list_word.append(word)
         word = ""
 
-# keep word into list_word
+# keep last word into list_word 
 if word:
     list_word.append(word)
 
