@@ -10,9 +10,9 @@ def weight_score(weight, max_score, score):
     print(f"Final weighted score is {result:.2f}")
 
 
-weight = list(map(int, input().split()))
-max_score = list(map(int, input().split()))
-score = list(map(int, input().split()))
+weight = list(map(int, input("weights =").split()))
+max_score = list(map(int, input("max_scores =").split()))
+score = list(map(int, input("scores =").split()))
 weight_score(weight, max_score, score)
 
 
